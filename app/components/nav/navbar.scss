@@ -1,0 +1,14 @@
+.nav-bar{
+    @apply sticky top-0 w-full bg-slate-200 z-30 shadow-sm;
+}
+
+.nav-container{
+    @apply flex items-center justify-between gap-3 md:gap-0;
+
+    .nav-search{
+        @apply hidden md:block
+    }
+    .nav-container-right{
+        @apply flex items-center gap-8 md:gap-12
+    }
+}
