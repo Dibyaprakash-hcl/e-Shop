@@ -4,9 +4,10 @@ import Heading from '../../components/Heading';
 import moment from 'moment';
 import { Rating } from '@mui/material';
 import Avatar from '../../components/Avatar';
+import { ProductData } from '../../../utils/products';
 
 interface ListRatingProps{
-    product:any;
+    product:ProductData;
 
 }
 

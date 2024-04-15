@@ -1,4 +1,33 @@
 
+export type ProductData={
+  id:string ,
+  name:string,
+  description:string,
+  price:number,
+  brand:string,
+  category:string,
+  inStock:boolean,
+  images:Image[],
+  reviews:Review[],
+  
+
+}
+
+export type Review={
+  id:string,
+  userId:string,
+  productId:string,
+  rating:number,
+  comment:string,
+
+}
+
+export type Image={
+  color:string,
+  colorCode:string,
+  image:string
+}
+
 export const products = [
     {
       id: "64a654593e91b8e73a351e9b",

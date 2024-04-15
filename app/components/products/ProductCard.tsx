@@ -5,9 +5,10 @@ import { truncateText } from '../../../utils/truncateText'
 import { formatPrice } from '../../../utils/formatPrice'
 import { Rating } from '@mui/material'
 import { useRouter } from 'next/navigation'
+import { ProductData } from '../../../utils/products'
 
 interface ProductCardProps{
-    data:any
+    data:ProductData
 }
 const ProductCard:React.FC<ProductCardProps> = ({data}) => {
     

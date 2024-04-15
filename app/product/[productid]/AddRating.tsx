@@ -7,10 +7,10 @@ import { Rating } from '@mui/material';
 import Input from '../../components/inputs/Input';
 import Button from '../../components/Button';
 import toast from 'react-hot-toast';
-import { products } from '../../../utils/products';
+import { ProductData, products } from '../../../utils/products';
 
 interface AddRatingProps{
-    product:any,
+    product:ProductData,
     user:any
 }
 

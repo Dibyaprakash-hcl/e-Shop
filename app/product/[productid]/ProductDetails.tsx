@@ -8,9 +8,10 @@ import ProductImage from '../../components/products/ProductImage';
 import { useCart } from '../../../hooks/useCart';
 import { MdCheckCircle } from 'react-icons/md';
 import { useRouter } from 'next/navigation';
+import { ProductData } from '../../../utils/products';
 
 interface ProductDetailsProps{
-    product:any;
+    product:ProductData;
 }
 
 export type CartProductType = {
