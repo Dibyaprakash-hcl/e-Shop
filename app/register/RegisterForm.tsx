@@ -67,7 +67,7 @@ const RegisterForm:React.FC<RegisterFormProps> = ({currentUser}) => {
     }
 
   return (
-    <>
+    <div data-testid="register">
         <Heading title='Sign up For E-Shop'/>
         <hr className='bg-slate-300 w-full h-px'/>
         <Input 
@@ -103,7 +103,7 @@ const RegisterForm:React.FC<RegisterFormProps> = ({currentUser}) => {
         <p className='text-sm'>
             Already, have an account? <Link href='/login' className='underline'>Log In</Link>
         </p>
-    </>
+    </div>
 
   )
 }
